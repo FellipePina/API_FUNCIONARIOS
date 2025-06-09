@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "k0hsUsCsvQRF+P/EhDiWYyoQNP75lYQpTQSiltumEMs=",
+  "Source": "funcionario",
+  "BasePath": "_content/funcionario",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "funcionario\\wwwroot",
+      "Source": "funcionario",
+      "ContentRoot": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\",
+      "BasePath": "_content/funcionario",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\index.html",
+      "SourceId": "funcionario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\",
+      "BasePath": "_content/funcionario",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ui5athtwi",
+      "Integrity": "mhzuwlMFbPkCoC8QAm3WXUG+auJkvT2eu6ZO/6hsajs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\script.js",
+      "SourceId": "funcionario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\",
+      "BasePath": "_content/funcionario",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6g5mathhmu",
+      "Integrity": "FvPkMlHG2i1VJNmQMkNo8XWGwJ3NFyRR/pHn7YFvpQA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\style.css",
+      "SourceId": "funcionario",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\",
+      "BasePath": "_content/funcionario",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jesmoc6srf",
+      "Integrity": "S2GnxBG95mA1X0oJU2ACBWrGjEUM3rXeRGQ0fiCTUqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.2ui5athtwi.html",
+      "AssetFile": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mhzuwlMFbPkCoC8QAm3WXUG+auJkvT2eu6ZO/6hsajs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 18:10:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ui5athtwi"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mhzuwlMFbPkCoC8QAm3WXUG+auJkvT2eu6ZO/6hsajs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mhzuwlMFbPkCoC8QAm3WXUG+auJkvT2eu6ZO/6hsajs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 18:10:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mhzuwlMFbPkCoC8QAm3WXUG+auJkvT2eu6ZO/6hsajs="
+        }
+      ]
+    },
+    {
+      "Route": "script.6g5mathhmu.js",
+      "AssetFile": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvPkMlHG2i1VJNmQMkNo8XWGwJ3NFyRR/pHn7YFvpQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 17:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g5mathhmu"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvPkMlHG2i1VJNmQMkNo8XWGwJ3NFyRR/pHn7YFvpQA="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvPkMlHG2i1VJNmQMkNo8XWGwJ3NFyRR/pHn7YFvpQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 17:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvPkMlHG2i1VJNmQMkNo8XWGwJ3NFyRR/pHn7YFvpQA="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2GnxBG95mA1X0oJU2ACBWrGjEUM3rXeRGQ0fiCTUqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 18:06:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2GnxBG95mA1X0oJU2ACBWrGjEUM3rXeRGQ0fiCTUqM="
+        }
+      ]
+    },
+    {
+      "Route": "style.jesmoc6srf.css",
+      "AssetFile": "D:\\Semestres Faculdade\\3 Semestre\\topicos especiais\\atividade_avaliativa_2\\API\\funcionario\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2GnxBG95mA1X0oJU2ACBWrGjEUM3rXeRGQ0fiCTUqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 18:06:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jesmoc6srf"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2GnxBG95mA1X0oJU2ACBWrGjEUM3rXeRGQ0fiCTUqM="
+        }
+      ]
+    }
+  ]
+}

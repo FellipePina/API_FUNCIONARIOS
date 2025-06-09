@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 50px;
+    margin: 0 auto;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    text-align: center;
+    color: rgb(37, 36, 36);
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.3);
+    border-radius: 5px;
+}
+
+section{
+    margin-top: 30px;
+    padding: 20px;
+    color: rgb(37, 36, 36);
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.3);
+    border-radius: 5px; 
+    background-color: rgb(245, 241, 241);
+}
+
+.inputs input, /* Para inputs gerais dentro de divs com classe 'inputs' */
+.inputs select { /* Adicionado para o campo 'sexo' */
+    padding: 5px 8px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* Estilo específico para inputs do formulário de cadastro, para quebrar linha se for o caso */
+#form-funcionario input,
+#form-funcionario select {
+    width: auto; /* Pode ser ajustado para '100%' ou 'calc(50% - 10px)' para layout responsivo */
+    min-width: 150px; /* Garante que os campos não fiquem muito pequenos */
+}
+
+
+button{
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Botões da seção de Buscar */
+#btn-buscar-funcionario{ /* Renomeado de #btn-buscar */
+    background-color: rgb(18, 187, 18);
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#btn-limpar-buscar{ /* Renomeado de #btn-limpar-buscar */
+    background-color: rgb(238, 154, 27);
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Botão de salvar funcionário */
+#btn-salvar-funcionario{ /* Renomeado de #btn-salvar-gasto */
+    background-color: rgb(245, 202, 11);
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Botão de limpar formulário (novo no HTML, cor igual ao limpar busca) */
+#btn-limpar-form{ /* ID alterado para consistência com o HTML gerado */
+    background-color: rgb(238, 154, 27);
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.titulo-buscar-funcionarios h2, /* Novos seletores para os títulos */
+.titulo-cadastrar-funcionarios h2,
+.titulo-mostrar-funcionarios h2{ /* Renomeado de .titulo-mostrar-gatos */
+    margin-bottom: 20px;
+}
+
+.btn-atualizar-lista button{ /* Mantido o ID do HTML original */
+    background-color: rgb(245, 202, 11);
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px; 
+}
+
+/* Estilos para a tabela #tabela-funcionarios */
+#tabela-funcionarios { /* Renomeado de #tabelagastos. Este é o ID principal */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+ 
+#tabela-funcionarios thead {
+    background-color: #f1c40f;
+    color: #2c3e50;
+    font-weight: 700;
+}
+ 
+#tabela-funcionarios thead th {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 3px solid #d4ac0d;
+    white-space: nowrap; /* Evita quebra de linha no cabeçalho */
+}
+ 
+#tabela-funcionarios tbody tr {
+    border-bottom: 1.5px solid #eee;
+    transition: background-color 0.3s ease;
+}
+ 
+#tabela-funcionarios tbody tr:hover {
+    background-color: #ebe481;
+}
+ 
+#tabela-funcionarios tbody td {
+    padding: 15px 10px;
+    vertical-align: middle;
+    color: #444;
+    white-space:unset; /* Evita quebra de linha nas células */
+    overflow: hidden;
+    max-width: 150px; /* Limite de largura para evitar células muito grandes */
+}
+ 
+/* Estilos para os botões dentro da tabela - Renomeado para usar classes */
+#tabela-funcionarios tbody button { /* Estilo base para todos os botões da tabela */
+    background-color: #3498db; /* Azul padrão, pode ser sobrescrito */
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 6px;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+}
+ 
+#tabela-funcionarios tbody button:hover {
+    background-color: #2980b9;
+}
+ 
+#tabela-funcionarios tbody button.delete-btn { /* Classe para o botão de exclusão */
+    background-color: #e74c3c;
+}
+ 
+#tabela-funcionarios tbody button.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+#tabela-funcionarios tbody button.edit-btn { /* Classe para o botão de edição */
+    background-color: rgb(255, 159, 49); /* Laranja - igual ao seu btn-limpar */
+    color: white;
+}
+#tabela-funcionarios tbody button.edit-btn:hover {
+    background-color: rgb(230, 140, 30); /* Laranja mais escuro no hover */
+}
+
+
+/* Ajustes de largura e alinhamento para colunas específicas da tabela de Funcionários */
+/* ESTES VALORES SÃO GERAIS. AJUSTE FINO PODE SER NECESSÁRIO PARA CADA COLUNA. */
+#tabela-funcionarios th:nth-child(1), #tabela-funcionarios td:nth-child(1) { width: 120px; text-align: left; } /* Ações */
+#tabela-funcionarios th:nth-child(2), #tabela-funcionarios td:nth-child(2) { width: 30px; text-align: center; } /* Id */
+#tabela-funcionarios th:nth-child(3), #tabela-funcionarios td:nth-child(3) { width: 50px; text-align: left; } /* Nome */
+#tabela-funcionarios th:nth-child(4), #tabela-funcionarios td:nth-child(4) { width: 30px; text-align: left; } /* Idade */
+#tabela-funcionarios th:nth-child(5), #tabela-funcionarios td:nth-child(5) { width: 80px; text-align: left; } /* Sexo */
+#tabela-funcionarios th:nth-child(6), #tabela-funcionarios td:nth-child(6) { width: 120px; text-align: left; } /* CPF */
+#tabela-funcionarios th:nth-child(6), #tabela-funcionarios td:nth-child(6) { width: 150px; text-align: left; } /* CPF */
+#tabela-funcionarios th:nth-child(7), #tabela-funcionarios td:nth-child(7) { width: 200px; text-align: left; } /* Email */
+#tabela-funcionarios th:nth-child(8), #tabela-funcionarios td:nth-child(8) { width: 150px; text-align: left; } /* Celular */
+#tabela-funcionarios th:nth-child(9), #tabela-funcionarios td:nth-child(9) { width: 150px; text-align: left; } /* Cargo */
+#tabela-funcionarios th:nth-child(10), #tabela-funcionarios td:nth-child(10) { width: 150px; text-align: left; } /* Setor */
+#tabela-funcionarios th:nth-child(11), #tabela-funcionarios td:nth-child(11) { width: 40px; text-align: center; } /* Carga Horária Semanal */
+#tabela-funcionarios th:nth-child(12), #tabela-funcionarios td:nth-child(12) { width: 60px; text-align: left; } /* Salário */
+#tabela-funcionarios th:nth-child(13), #tabela-funcionarios td:nth-child(13) { width: 80px; text-align: left; } /* Estado Civil */
+#tabela-funcionarios th:nth-child(14), #tabela-funcionarios td:nth-child(14) { width: 80px; text-align: left; } /* Gastos por Mês */
+
+/* Estilos para a mensagem de "Nenhum funcionário encontrado" */
+#no-data-message {
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #777;
+    font-size: 0.9em;
+    border-top: 1px solid #eee;
+}
